@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Bedu DOM basic calculator</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row" style="width: 60vw;">
+				<div class="col-2">
+					<div class="calculator card">
+						<input id="screen" type="text" class="calculator-screen z-depth-1" value="" disabled />
+						<div class="calculator-keys">
+							<div>
+								<button type="button" class="operator btn btn-info" value="+">+</button>
+								<button type="button" class="operator btn btn-info" value="-">-</button>
+								<button type="button" class="operator btn btn-info" value="*">&times;</button>
+								<button type="button" class="operator btn btn-info" value="/">&divide;</button>
+							</div>
+							<div>
+								<button type="button" value="7" class="btn btn-light waves-effect">7</button>
+								<button type="button" value="8" class="btn btn-light waves-effect">8</button>
+								<button type="button" value="9" class="btn btn-light waves-effect">9</button>
+							</div>
+							<div>
+								<button type="button" value="4" class="btn btn-light waves-effect">4</button>
+								<button type="button" value="5" class="btn btn-light waves-effect">5</button>
+								<button type="button" value="6" class="btn btn-light waves-effect">6</button>
+							</div>
+							<div>
+								<button type="button" value="1" class="btn btn-light waves-effect">1</button>
+								<button type="button" value="2" class="btn btn-light waves-effect">2</button>
+								<button type="button" value="3" class="btn btn-light waves-effect">3</button>
+							</div>
+							<div>
+								<button type="button" value="0" class="btn btn-light waves-effect">0</button>
+								<button type="button" class="decimal function btn btn-secondary" value=".">.</button>
+								<button type="button" class="all-clear function btn btn-danger btn-sm" value="all-clear">AC</button>
+								<button type="button" class="equal-sign operator btn btn-default" value="=">=</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="./assets/js/index.js"></script>
+</html>
